@@ -1,0 +1,159 @@
+* {box-sizing: border-box;}
+/* header */
+header h2 {
+    text-align: center;
+    background-color: #3F4D4D;
+    color: white;
+    margin: 0 auto;
+    height: 3em;
+    padding-top: 18px;
+    font-family: Comfortaa, 'Sans-serif', arial;
+}
+
+/* container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Comfortaa, 'Sans-serif', arial;
+}
+/* intro */
+.intro {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 4px solid black;
+    margin-bottom: 2px;
+}
+
+.intro h3 {
+    margin-bottom: 8px;
+}
+
+.intro p {
+    margin-top: 2px;
+    margin-bottom: 2em;
+}
+
+/* contact info */
+.contactform {
+    margin: 0 auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+fieldset {
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+legend h2 {
+    text-align: left;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info input, select {
+    width: 100%;
+    height: 2.5em;
+}
+input::placeholder {
+    text-align: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+.info label, select {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.info input, select {
+    background-color: #DAEAEA;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+}
+
+input:focus, select:focus, textarea:focus {
+    color: white;
+    background-color: #34C8C1;
+}
+#zipcode {
+    padding: 5px;
+}
+
+/* newsletter format */
+.newsletter {
+    margin: 0 auto;
+}
+
+.newsletter p {
+    margin-top: 0;
+}
+
+.check, .radio {
+    padding-bottom: 8px;
+}
+
+.check input,
+.radio input {
+    margin-right: 6px;
+}
+
+#zipcode {
+    width: 50%;
+}
+textarea {
+    resize: none;
+    height: 6em;
+    width: 100%;
+    background-color: #DAEAEA;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    height: 3em;
+    border: none;
+    border-radius: 5px;
+    background-color: #34C8C1;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+/* media q */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+    .info label {
+        width: 30%;
+    }
+
+    
+    .info input, select {
+        width: 70%;
+    }
+
+    #zipcode {
+        width: 25%;
+    }
+}
