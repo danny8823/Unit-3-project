@@ -127,12 +127,19 @@ button {
 }
 
 footer p{
-    font-size: 14px;
+    font-size: 18px;
     font-style: italic;
     text-align: center;
     margin-bottom: 3em;
+    padding-top: 8em;
 }
 
+footer {
+    background-color: #3F4D4D;
+    width: 100%;
+    color: white;
+
+}
 /* media q */
 @media screen and (min-width: 768px) {
     .container {
