@@ -59,6 +59,7 @@ legend h2 {
     width: 100%;
     height: 2.5em;
 }
+
 input::placeholder {
     text-align: right;
     padding-right: 10px;
@@ -79,6 +80,8 @@ input::placeholder {
 input:focus, select:focus, textarea:focus {
     color: white;
     background-color: #34C8C1;
+    transition-duration: 2s;
+    transition-timing-function: ease;
 }
 #zipcode {
     padding: 5px;
